@@ -1,6 +1,7 @@
 ########################## --> ye jo kuch bhi neeche likha gaya he wo copy ho chuka he inside the package
-from first_flask import app
+from first_flask import create_app
 
+app=create_app()			#after lec:11 configuration
 
 if __name__ == '__main__':				
   ##  app.run(host='0.0.0.0')		#ye network me public access ke liye he look for external server in flask
